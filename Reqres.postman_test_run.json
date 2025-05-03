@@ -1,0 +1,352 @@
+{
+	"id": "5d2d76db-0e23-4233-9513-b629b04bbe0f",
+	"name": "Reqres",
+	"timestamp": "2025-05-03T16:49:45.606Z",
+	"collection_id": "44426595-a0f1e521-6ae0-4a57-a92f-4c0c4fccc782",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-05-03T16:49:35.065Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8a1aa8e5-4048-450c-a269-06aa3baa37a0",
+			"name": "CREATE",
+			"url": "https://reqres.in/api/users",
+			"time": 380,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				380
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4522aac9-c237-4278-9f57-4ed0c7eda063",
+			"name": "REGISTER_SUCCESSFUL",
+			"url": "https://reqres.in/api/register",
+			"time": 321,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				321
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "86ca99cd-1709-47d2-bf77-8db6310aaa69",
+			"name": "REGISTER_UNSUCCESSFUL",
+			"url": "https://reqres.in/api/register",
+			"time": 328,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				328
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "67e6c669-ae95-4a7f-a9cc-89c70099fc76",
+			"name": "LOGIN_SUCCESSFUL",
+			"url": "https://reqres.in/api/login",
+			"time": 316,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				316
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5434e2ca-6975-4bdf-a76c-989ee6d2f9a6",
+			"name": "LOGIN_UNSUCCESSFUL",
+			"url": "https://reqres.in/api/login",
+			"time": 326,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				326
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a1445e85-32ce-4d04-a2cb-d121981c75a6",
+			"name": "UPDATE",
+			"url": "https://reqres.in/api/users/2",
+			"time": 346,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				346
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e93f99e5-1f66-4e17-9c09-4ab80c07ee5b",
+			"name": "UPDATE",
+			"url": "https://reqres.in/api/users/2",
+			"time": 326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				326
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0f2f51d5-5561-4b91-9449-4c056b37941c",
+			"name": "LIST_USERS",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 363,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				363
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "96506fd4-8752-4a2c-bacd-41ab87018911",
+			"name": "SINGLE_USER",
+			"url": "https://reqres.in/api/users/2",
+			"time": 464,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				464
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8802ce57-75cd-4597-99d8-824958968e22",
+			"name": "SINGLE_USER_NOT_FOUND",
+			"url": "https://reqres.in/api/users/23",
+			"time": 332,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				332
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7659dd90-6130-4c37-bd80-717cce6331ea",
+			"name": "LIST<RESOURCE>",
+			"url": "https://reqres.in/api/unknowN",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				330
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "81c42e21-39fe-439b-acc4-2079b6d477a6",
+			"name": "SINGLE<RESOURCE>",
+			"url": "https://reqres.in/api/uNKNOWN/2",
+			"time": 330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				330
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "b8964e42-6640-4a8c-82de-6752e54a94b7",
+			"name": "SINGLE<RESOURCE> NOT FOUND",
+			"url": "https://reqres.in/api/unkown/23",
+			"time": 332,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				332
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4bb0eb2b-5cd4-4496-a603-63f2ffa54f82",
+			"name": "DELAYED RESPONSE",
+			"url": "https://reqres.in/api/users?delay=3",
+			"time": 3330,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3330
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6fa74f9e-0f46-494c-8213-8ed92a91ba71",
+			"name": "DELETE",
+			"url": "https://reqres.in/api/users/2",
+			"time": 320,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				320
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8144,
+	"collection": {
+		"requests": [
+			{
+				"id": "8a1aa8e5-4048-450c-a269-06aa3baa37a0",
+				"method": "POST"
+			},
+			{
+				"id": "4522aac9-c237-4278-9f57-4ed0c7eda063",
+				"method": "POST"
+			},
+			{
+				"id": "86ca99cd-1709-47d2-bf77-8db6310aaa69",
+				"method": "POST"
+			},
+			{
+				"id": "67e6c669-ae95-4a7f-a9cc-89c70099fc76",
+				"method": "POST"
+			},
+			{
+				"id": "5434e2ca-6975-4bdf-a76c-989ee6d2f9a6",
+				"method": "POST"
+			},
+			{
+				"id": "a1445e85-32ce-4d04-a2cb-d121981c75a6",
+				"method": "PUT"
+			},
+			{
+				"id": "e93f99e5-1f66-4e17-9c09-4ab80c07ee5b",
+				"method": "PATCH"
+			},
+			{
+				"id": "0f2f51d5-5561-4b91-9449-4c056b37941c",
+				"method": "GET"
+			},
+			{
+				"id": "96506fd4-8752-4a2c-bacd-41ab87018911",
+				"method": "GET"
+			},
+			{
+				"id": "8802ce57-75cd-4597-99d8-824958968e22",
+				"method": "GET"
+			},
+			{
+				"id": "7659dd90-6130-4c37-bd80-717cce6331ea",
+				"method": "GET"
+			},
+			{
+				"id": "81c42e21-39fe-439b-acc4-2079b6d477a6",
+				"method": "GET"
+			},
+			{
+				"id": "b8964e42-6640-4a8c-82de-6752e54a94b7",
+				"method": "GET"
+			},
+			{
+				"id": "4bb0eb2b-5cd4-4496-a603-63f2ffa54f82",
+				"method": "GET"
+			},
+			{
+				"id": "6fa74f9e-0f46-494c-8213-8ed92a91ba71",
+				"method": "DELETE"
+			}
+		]
+	}
+}
