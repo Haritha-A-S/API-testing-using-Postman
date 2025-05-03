@@ -1,0 +1,1 @@
+This project focuses on API testing using Postman within the RESTful API domain. It involves testing various endpoints from the Reqres platform. Key operations include performing CRUD operations using standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE. The project validates API responses and incorporates JSON as the content type. 
